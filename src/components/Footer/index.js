@@ -7,18 +7,7 @@ class Footer extends Component {
         <p>Double-click to edit a todo</p>
         <p>
           {' '}
-          Written by <a href="http://evanyou.me">Evan You</a>
-        </p>
-        <p>
-          {' '}
-          Edited by <a href="https://ltv.vn">Luc Duong</a>
-        </p>
-        <p>
-          {' '}
-          From{' '}
-          <a data-v-fdb56dc8="" href="https://gitlab.com/ltv/c/beginnerjs">
-            BeginnerJs
-          </a>
+          Written by Duy Nguyen
         </p>
       </footer>
     );

@@ -28,7 +28,8 @@ class TodoItem extends Component {
     }
   };
   onDoubleClick = () => {
-    this.setState({ onEditing: true });
+    let { todoItem } = this.props
+    this.setState({ onEditing: true, title: todoItem.title});
   };
   onCheckChange = event => {
     const { updateTodo, todoItem } = this.props;
